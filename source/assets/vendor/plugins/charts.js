@@ -24,7 +24,7 @@
       300: '#A6C5F7',
       700: '#2C7BE5',
     },
-    black: '#4D1C0D',
+    black: '#12263F',
     white: '#FFFFFF',
     transparent: 'transparent',
   };

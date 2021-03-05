@@ -7,204 +7,184 @@
   },  
   { 
     "id": 1,
-    "icon": "fa fa-file-text",
+    "icon": "fa fa-file-text-o",
     "slug": "introduccion",
-    "title": "Introduccion",
-    "breadcrumb": ["Inicio","Introducción"],
-    "path": "pages/introduccion.html"     
+    "title": "Introducción",
+    "breadcrumb": ["Inicio","introduccion"],
+    "path": "pages/1-tema.html"
   },
   { 
-    "id": 1,
-    "icon": "fa fa-file-text",
-    "slug": "infantil",
-    "title": "1. Patronaje Básico de línea Infantil",
-    "breadcrumb": ["Inicio","Introducción"],
-    "path": "pages/1-tema.html",    
-    "submenu": [
-      {
-        "icon": "fa fa-file-text",
-        "slug": "infantil",
-        "title": "1.1 Cómo hacer un patrón a escala",
-        "anchor": "tema1_1"
-      },   
-      {
-        "icon": "fa fa-play-circle",
-        "slug": "infantil",
-        "title": "1.2. Implementación de básico superior – Desarrollo de prendas superiores",
-        "anchor": "tema1_2"
-      },
-      {
-        "icon": "fa fa-play-circle",
-        "slug": "infantil",
-        "title": "1.3. trazo de cabezas mangas – Análisis de manga",
-        "anchor": "tema1_3"
-      },
-      {
-        "icon": "fa fa-file-text",
-        "slug": "infantil",
-        "title": "1.3.1 Modificaciones de manga.",
-        "anchor": "tema1_3_1"
-      },     
-      {
-        "icon": "fa fa-play-circle",
-        "slug": "infantil",
-        "title": "1.4 Trazo de cuellos – Generalidades y comportamientos",
-        "anchor": "tema1_4"
-      },     
-      {
-        "icon": "fa fa-play-circle",
-        "slug": "infantil",
-        "title": "1.5 Despiece de planos",
-        "anchor": "tema1_5"
-      },     
-      {
-        "icon": "fa fa-play-circle",
-        "slug": "infantil",
-        "title": "1.6 Trazo de prendas superiores",
-        "anchor": "tema1_6"
-      },     
-      {
-        "icon": "fa fa-play-circle",
-        "slug": "infantil",
-        "title": "1.7 Trazo de prendas Inferiores – Faldas",
-        "anchor": "tema1_7"
-      },     
-      {
-        "icon": "fa fa-play-circle",
-        "slug": "infantil",
-        "title": "1.8 Trazo de prendas Inferiores – Pantalón",
-        "anchor": "tema1_8"
-      },     
-      {
-        "icon": "fa fa-play-circle",
-        "slug": "infantil",
-        "title": "1.9 Trazo de prendas – Overol",
-        "anchor": "tema1_9"
-      },     
-      {
-        "icon": "fa fa-play-circle",
-        "slug": "infantil",
-        "title": "1.10 Trazo de prendas – Bata o vestido",
-        "anchor": "tema1_10"
-      }     
-      
-    ]   
-  },
-  { 
-    "id": 1,
-    "icon": "fa fa-file-text",
-    "slug": "masculina",
-    "title": "2. Patronaje Básico Línea Masculina ",
-    "breadcrumb": ["Inicio","Introducción"],
+    "id": 2,
+    "icon": "fa fa-file-text-o",
+    "slug": "patronaje1",
+    "title": "1. Patronaje básico de línea infantil",
+    "breadcrumb": ["Inicio","patronaje1"],
     "path": "pages/2-tema.html",    
     "submenu": [
       {
-        "icon": "fa fa-play-circle",
-        "slug": "masculina",
-        "title": "2.1 Trazo de Camisa Clásica",
-        "anchor": "tema2_1"
-      },   
-      {
-        "icon": "fa fa-play-circle",
-        "slug": "masculina",
-        "title": "2.2 Trazo de prendas superiores - Camisa",
-        "anchor": "tema2_2"
+        "icon": "fa fa-file-text-o",
+        "slug": "patronaje1",
+        "title": "1.1 Cómo hacer un patrón a escala",
+        "anchor": "11"
       },
       {
-        "icon": "fa fa-play-circle",
-        "slug": "masculina",
-        "title": "2.3 Trazo del Pantalón Clásico Masculino",
-        "anchor": "tema2_3"
+        "icon": "fa fa-file-text-o",
+        "slug": "patronaje1",
+        "title": "1.2 Implementación de básico superior – Desarrollo de prendas superiores",
+        "anchor": "12"
       },
       {
-        "icon": "fa fa-play-circle",
-        "slug": "masculina",
-        "title": "2.4 Trazo de Pantalón Tipo Jean Slim Fit",
-        "anchor": "tema2_4"
-      },     
+        "icon": "fa fa-file-text-o",
+        "slug": "patronaje1",
+        "title": "1.3 Trazo de cabezas mangas – Análisis de manga",
+        "anchor": "13"
+      },
       {
-        "icon": "fa fa-play-circle",
-        "slug": "masculina",
-        "title": "2.5 Base sastre masculina",
-        "anchor": "tema2_5"
-      }    
-    ]   
+        "icon": "fa fa-file-text-o",
+        "slug": "patronaje1",
+        "title": "1.4 Trazo de cuellos – Generalidades y comportamientos",
+        "anchor": "14"
+      },
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "patronaje1",
+        "title": "1.5 Despiece de planos",
+        "anchor": "15"
+      },
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "patronaje1",
+        "title": "1.5 Despiece de planos",
+        "anchor": "15"
+      },
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "patronaje1",
+        "title": "1.6 Trazo de prendas superiores",
+        "anchor": "16"
+      },
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "patronaje1",
+        "title": "1.7 Trazo de prendas inferiores - faldas",
+        "anchor": "17"
+      },
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "patronaje1",
+        "title": "1.8 Trazo de prendas inferiores - pantalón",
+        "anchor": "18"
+      },
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "patronaje1",
+        "title": "1.9 Trazo de prendas – overol",
+        "anchor": "19"
+      }
+    ]
   },
   { 
-    "id": 1,
-    "icon": "fa fa-file-text",
-    "slug": "femenina",
-    "title": "3. Patronaje Básico Línea Femenina",
-    "breadcrumb": ["Inicio","Introducción"],
+    "id": 3,
+    "icon": "fa fa-file-text-o",
+    "slug": "patronaje2",
+    "title": "2. Patronaje básico línea masculina",
+    "breadcrumb": ["Inicio","patronaje2"],
     "path": "pages/3-tema.html",    
     "submenu": [
       {
-        "icon": "fa fa-play-circle",
-        "slug": "femenina",
-        "title": "3.1. Traslados de Pinza Correctiva de talles",
-        "anchor": "tema3_1"
-      },   
-      {
-        "icon": "fa fa-play-circle",
-        "slug": "femenina",
-        "title": "3.2 Trazo de blusa femenina",
-        "anchor": "tema3_2"
+        "icon": "fa fa-file-text-o",
+        "slug": "patronaje2",
+        "title": "2.1 Trazo de camisa clásica",
+        "anchor": "21"
       },
       {
-        "icon": "fa fa-play-circle",
-        "slug": "femenina",
-        "title": "3.3. Trazo de escotes y tipos de cuellos",
-        "anchor": "tema3_3"
+        "icon": "fa fa-file-text-o",
+        "slug": "patronaje2",
+        "title": "2.2 Trazo de prendas superiores - Camisa",
+        "anchor": "22"
       },
       {
-        "icon": "fa fa-play-circle",
-        "slug": "femenina",
-        "title": "3.4 Trazo de chaqueta tipo sastre",
-        "anchor": "tema3_4"
-      },     
+        "icon": "fa fa-file-text-o",
+        "slug": "patronaje2",
+        "title": "2.3 Trazo de pantalón clásico masculino",
+        "anchor": "23"
+      },
       {
-        "icon": "fa fa-play-circle",
-        "slug": "femenina",
-        "title": "3.5 Trazo de manga y cabezas de manga",
-        "anchor": "tema3_5"
-      },     
+        "icon": "fa fa-file-text-o",
+        "slug": "patronaje2",
+        "title": "2.4 Trazo de pantalón tipo jean slim fit",
+        "anchor": "24"
+      },
       {
-        "icon": "fa fa-play-circle",
-        "slug": "femenina",
-        "title": "3.5.1 Interpretación de mangas",
-        "anchor": "tema3_5_1"
-      },     
-      {
-        "icon": "fa fa-play-circle",
-        "slug": "femenina",
-        "title": "3.6 Trazo de falda y modificación de básicos de falda",
-        "anchor": "tema3_6"
-      },     
-      {
-        "icon": "fa fa-play-circle",
-        "slug": "femenina",
-        "title": "3.6.1 Trazo de faldas rotondas",
-        "anchor": "tema3_6_1"
-      },     
-      {
-        "icon": "fa fa-play-circle",
-        "slug": "femenina",
-        "title": "3.7 Trazo de vestido de noche",
-        "anchor": "tema3_7"
-      },     
-      {
-        "icon": "fa fa-play-circle",
-        "slug": "femenina",
-        "title": "3.8 Interpretación de prendas inferiores",
-        "anchor": "tema3_8"
-      },     
-      {
-        "icon": "fa fa-play-circle",
-        "slug": "femenina",
-        "title": "3.9 Interpretación de Overoles",
-        "anchor": "tema3_9"
+        "icon": "fa fa-file-text-o",
+        "slug": "patronaje2",
+        "title": "2.5 Base sastre masculina",
+        "anchor": "25"
       }
-    ]   
+    ]
+  },
+  { 
+    "id": 4,
+    "icon": "fa fa-file-text-o",
+    "slug": "patronaje3",
+    "title": "3. Patronaje básico línea femenina",
+    "breadcrumb": ["Inicio","patronaje3"],
+    "path": "pages/4-tema.html",    
+    "submenu": [
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "patronaje3",
+        "title": "3.1 Traslados de pinza correctiva de talles",
+        "anchor": "31"
+      },
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "patronaje3",
+        "title": "3.2 Trazo de blusa femenina",
+        "anchor": "32"
+      },
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "patronaje3",
+        "title": "3.3 Trazo de escotes y tipos de cuellos",
+        "anchor": "33"
+      },
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "patronaje3",
+        "title": "3.4 Trazo de chaqueta tipo sastre",
+        "anchor": "34"
+      },
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "patronaje3",
+        "title": "3.5 Trazo de manga y cabezas de manga",
+        "anchor": "35"
+      },
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "patronaje3",
+        "title": "3.6 Trazo de falda y modificación de básicos de falda",
+        "anchor": "36"
+      },
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "patronaje3",
+        "title": "3.7 Trazo de vestido de noche",
+        "anchor": "37"
+      },
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "patronaje3",
+        "title": "3.8 Interpretación de prendas inferiores",
+        "anchor": "38"
+      },
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "patronaje3",
+        "title": "3.9 Interpretación de overoles",
+        "anchor": "39"
+      }
+    ]
   }
 ]
-

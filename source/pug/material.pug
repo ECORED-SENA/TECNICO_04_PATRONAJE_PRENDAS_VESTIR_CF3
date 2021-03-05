@@ -36,22 +36,24 @@ html(lang="es")
                             .card-body
 
                                 ul.list-group.list-group-flush.list.my-n3.nav-temas
-                                    +navTemaItem('text', 'Introducción', '#introduccion')
-                                    +navTemaItem('1', 'Patronaje Básico de línea Infantil', '#tema-1')
-                                    +navTemaItem('2', 'Patronaje Básico Línea Masculina', '#tema-2')
-                                    +navTemaItem('3', 'Patronaje Básico Línea Femenina', '#tema-3')
+                                    +navTemaItem('text', 'Introducción', 'main.html#page/#tema-1/')
+                                    +navTemaItem('1', 'Patronaje básico de línea infantil', 'main.html#page/#tema-2/')
+                                    +navTemaItem('2', 'Patronaje básico línea masculina', 'main.html#page/#tema-3/')
+                                    +navTemaItem('3', 'Patronaje básico línea femenina', 'main.html#page/#tema-4/')
                                     +navTemaItem('glosary', 'Glosario', '#glosario')
                                     +navTemaItem('folder', 'Material complementario', '#anexos')
                                     +navTemaItem('references', 'Referencias bibliográficas', '#referencias')
 
 
         section#mainContent         
-            #introduccion
-                include pages/introduccion.pug
             #tema-1
                 include pages/1-tema.pug
-            #evaluacion
-                include pages/actividad-1.pug
+            #tema-2
+                include pages/2-tema.pug
+            #tema-3
+                include pages/3-tema.pug
+            #tema-4
+                include pages/4-tema.pug
             #glosario
                 include pages/glosario.pug
             #anexos

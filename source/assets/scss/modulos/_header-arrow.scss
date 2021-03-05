@@ -1,11 +1,12 @@
 .header-arrow {
   position: relative;
-  background-color: $brand-color-secondary;
+  background: rgb(166,109,88);
+  background: linear-gradient(90deg, rgba(166,109,88,1) 0%, rgba(217,161,113,1) 100%); 
   padding: 2rem;
 
   h1,h2,h3 {
       margin: 0;
-      color: $white;      
+      color:white;      
   }
 
   &--xs {
@@ -21,7 +22,7 @@
     transition: all .3s ease;
     border-style: solid;
     border-width: 25px 25px 0px 25px;
-    border-color:  $brand-color-secondary transparent transparent transparent;
+    border-color: #be8664 transparent transparent transparent;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);

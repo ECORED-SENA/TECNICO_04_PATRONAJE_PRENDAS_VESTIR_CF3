@@ -6,7 +6,7 @@ mixin pageHeader(tituloTema, srcImagen, pagina)
 
             .col-12.col-lg-6
 
-                h3#curso-titulo-componente.curso-subtitulo TÉCNICO EN PATRONAJE INDUSTRIAL DE PRENDAS DE VESTIR
+                h3#curso-titulo-componente.curso-subtitulo Técnico en patronaje industrial de prendas de vestir
                 h1#curso-titulo-tema.curso-titulo Patronaje básico
 
                 .brand-line-primary
@@ -14,18 +14,17 @@ mixin pageHeader(tituloTema, srcImagen, pagina)
                 if pagina == 'main'
 
                     .keywords
-                        span.badge.badge-pill.badge-light.mr-2 #Patronaje
-                        span.badge.badge-pill.badge-light.mr-2 #Desarrollo
-                        span.badge.badge-pill.badge-light.mr-2 #Moldes
+                        span.badge.badge-pill.badge-light.mr-2.has1 #patronaje
+                        span.badge.badge-pill.badge-light.mr-2.has1 #desarrollo_de_moldes
 
                     .barra-dots.mt-5
                         img.img-fluid(src='assets/images/header/icon_dots.svg', alt='alt')
 
                 else 
-                    p.curso-descripcion En este componente se aborda el desarrollo y la elaboración de moldes, desde la implementación de los básicos en las diferentes líneas, el análisis de cada una de las partes que componen una prenda, pasados a planos técnicos con medidas y formas correspondientes a cada estructura.
+                    p.curso-descripcion El  presente componente aborda el desarrollo y la elaboración de moldes desde la implementación de los básicos en las diferentes líneas, el análisis de cada una de las partes que compone una prenda, pasados a planos técnicos con medidas y formas correspondientes a cada estructura.
         
                 if pagina == 'home'
-                    a.curso-btn-iniciar.btn.btn-light(href="main.html")
+                    a.curso-btn-iniciar.btn.btn-danger(href="main.html")
                         span Iniciar curso
 
 
@@ -102,7 +101,7 @@ mixin creditosFooter(ruta)
                     h3.footer-subtitulo.mb-4 ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES 
 
                     p.footer-texto.mb-2
-                        | #[strong Ingry Dayanna Bonilla Monzon	 ]<br/>   
+                        | #[strong Maria Camila Garcia Santamaria]<br/>   
                         span.text-small Líder del equipo
 
             .row.mt-5
@@ -112,61 +111,92 @@ mixin creditosFooter(ruta)
                         | Contenido Instruccional
 
                     p.footer-texto.mb-2
-                        | #[strong Gloria Matilde Lee Mejía	 ]<br/>   
-                        span.text-small Responsable del equipo
+                        | #[strong Rafael Neftalí Lizcano Reyes]<br/>   
+                        span.text-small Asesor metodologógico y pedagógico
 
                     p.footer-texto
-                        span.text-small.text-uppercase Centro de Comercio y Servicios
+                        span.text-small.text-uppercase Centro Industrial Del Diseño Y La Manufactura 
                         br
-                        span.text-small Regional Tolima
+                        span.text-small Regional Santander
 
 
                     p.footer-texto.mb-2
-                        | #[strong Rafael Nelftalí Lizcano Reyes]<br/>               
-                        span.text-small Asesor pedagógico<br/>
+                        | #[strong Tania Yaneth Ramírez Benítez]<br/>               
+                        span.text-small Soporte organizacional<br/>
 
                     p.footer-texto
-                        span.text-small.text-uppercase CENTRO INDUSTRIAL DEL DISEÑO Y LA MANUFACTURA   
+                        span.text-small.text-uppercase CENTRO DE COMERCIO Y SERVICIOS  
                         br
-                        span.text-small Regional Santander    
+                        span.text-small Regional Tolima    
 
                     p.footer-texto.mb-2
-                        | #[strong Lizeth Maritza Rodríguez Beltrán]<br/>
-                        span.text-small Experta temática<br/>
+                        | #[strong Jhacesiz Mary Hincapié Atehortúa]<br/>
+                        span.text-small Instructora<br/>
 
                     p.footer-texto
-                        span.text-small.text-uppercase Centro de Manufactura en Textil y Cuero
+                        span.text-small.text-uppercase Centro de Servicios de Salud 
                         br
-                        span.text-small Regional Distrito Capital
+                        span.text-small Regional Antioquia
+                   
+                    p.footer-texto.mb-2
+                        | #[strong Manuel Alejandro Garzón]<br/>
+                        span.text-small Instructor<br/>
+
+                    p.footer-texto
+                        span.text-small.text-uppercase Centro de Servicios de Salud 
+                        br
+                        span.text-small Regional Antioquia
+                    p.footer-texto.mb-2
+
+                        | #[strong German Albeiro Saldarriga]<br/>   
+                        span.text-small Instructor<br/>
+
+                    p.footer-texto
+                        span.text-small.text-uppercase Centro de Servicios de Salud 
+                        br
+                        span.text-small Regional Antioquia
+
 
                     p.footer-texto.mb-2
-                        | #[strong Natalia Andrea Bueno Pizarro]<br/>
+                        | #[strong Adriana María Bustamante]<br/>   
+                        span.text-small Profesional Diseño Curricular<br/>
+
+                    p.footer-texto
+                        span.text-small.text-uppercase Centro de Servicios de Salud
+
+                        br
+                        span.text-small Regional Antioquia
+
+                    p.footer-texto.mb-2
+                        | #[strong Luz Mila Pacheco Fuentes]<br/>   
                         span.text-small Diseñadora Instruccional<br/>
 
                     p.footer-texto
-                        span.text-small.text-uppercase Centro para La Industria de la Comunicación Gráfica
+                        span.text-small.text-uppercase Centro de Diseño y Metrología 
+
                         br
                         span.text-small Regional Distrito Capital
 
                     p.footer-texto.mb-2
-                        | #[strong Sergio Medina]<br/>
+                        | #[strong Sergio Arturo Medina Castillo]<br/>   
                         span.text-small Evaluador instruccional<br/>
 
                     p.footer-texto
-                        span.text-small.text-uppercase Centro para La Industria de la Comunicación Gráfica
-                        br
-                        span.text-small Regional Distrito Capital                                                
-                   
-                    p.footer-texto.mb-2
-                        | #[strong Julieth Paola Vital López]<br/>
-                        span.text-small Revisora de estilo<br/>
-
-                    p.footer-texto
-                        span.text-small.text-uppercase Centro para la Industria y la Comunicación Gráfica
+                        span.text-small.text-uppercase Centro para la Industria de la Comunicación Gráfica
 
                         br
                         span.text-small Regional Distrito Capital
 
+                    p.footer-texto.mb-2
+                        | #[strong Martha Isabel Martínez Vargas]<br/>   
+                        span.text-small Revisora de estilo<br/>
+
+                    p.footer-texto
+                        span.text-small.text-uppercase Centro Industrial del Diseño y la Manufactura Regional Santander
+
+                        br
+                        span.text-small Regional Santander
+                      
                 .col-12.col-md-6
                     h4.footer-subtitulo-2.mt-0 
                         .fa.fa-caret-right.mr-2
@@ -181,18 +211,18 @@ mixin creditosFooter(ruta)
                         span.text-small Integración de recursos y pruebas<br/>
 
                     p.footer-texto                           
-                        | #[strong Camilo Andrés Villamizar Lizcano]<br/>
-                        | #[strong Ernesto Navarro Jaimes]<br/>
-                        | #[strong José Jaime Luis Tang Pinzón]<br/>
-                        | #[strong Nelson Iván Vera Briceño]<br/>
+                        | #[strong Camilo Andrés Villamizar Lizcano]<br/>  
+                        | #[strong Juan Daniel Polanco Muñoz]<br/>
+                        | #[strong Lady Adriana Ariza Luque]<br/>  
                         | #[strong Oleg Litvin]<br/>
-                        | #[strong Oscar Julian Marquez Sanabria]<br/>
-                        | #[strong Víctor Raúl Cárdenas Cáceres]<br/>
+                        | #[strong Victor Raúl Cárdenas Cáceres]<br/>
+                        | #[strong Wilson Andres Arenales Cáceres]<br/>
+                        | #[strong Yuly Andrea Rey Quiñonez]<br/>
+
                         span.text-small Diseño web & producción audiovisual<br/>
 
                     p.footer-texto
-                        | #[strong Edward Leonardo Pico Cabra]<br/>
-                        | #[strong Jhon Jairo Urueta Alvarez]<br/>
+                        | #[strong Edward Leonardo Pico Cabra]<br/>                        
                         span.text-small Desarrollo front-end<br/>
 
                     p.footer-texto
@@ -201,28 +231,28 @@ mixin creditosFooter(ruta)
                         span.text-small Regional Santander
 
                     p.footer-texto
-                        | #[strong Ricardo Alfonso Gonzalez Vargas]<br/>
+                        | #[strong Jhon Jairo Urueta Alvarez]<br/>
+
                         span.text-small Desarrollo front-end<br/>
 
                     p.footer-texto
-                        span.text-small.text-uppercase CENTRO DE COMERCIO Y SERVICIOS  
+                        span.text-small.text-uppercase CENTRO DE COMERCIO Y SERVICIOS   
                         br
-                        span.text-small Regional Tolima                        
+                        span.text-small Regional Tolima                       
 
                     h4.footer-subtitulo-2.mt-5
                         .fa.fa-caret-right.mr-2
                         | Gestores de repositorio
                     
                     p.footer-texto
-                        | #[strong Brayan Steven Pinto Diaz]<br/>                    
+                        | #[strong Ricardo Alfonso Gonzalez Vargas]<br/>  
+    
                         span.text-small Validación de recursos.<br/>
 
                     p.footer-texto
-                        span.text-small.text-uppercase Centro de comercio y servicios  
+                        span.text-small.text-uppercase CENTRO INDUSTRIAL DEL DISEÑO Y LA MANUFACTURA   
                         br
-                        span.text-small Regional Tolima
-
-
+                        span.text-small Regional Santander
 
             .row.justify-content-center.align-items-center.mt-5
                     img(src= ruta, style="max-width:100px")

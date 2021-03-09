@@ -335,6 +335,7 @@ font-size: .8em;
   padding:0.5rem 1rem; 
   margin:0 0.5rem; 
   border-radius: 5px;
+  transition: all 800ms ease-out;
   p{
     color: #FFD54F !important;
   }
@@ -342,7 +343,6 @@ font-size: .8em;
 
 .imgTopBarButton:hover{
   background-color: #3B5FBF;
-  transition: all 800ms ease-out;
 }
 
 .bg-color1{
